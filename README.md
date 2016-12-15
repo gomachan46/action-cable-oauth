@@ -1,26 +1,14 @@
-# docker_rails_boilerplate
+# action-cable-oauth
 
-Ruby on Rails 5 works on Docker for development.
+あなたにおすすめするWebSocketを用いた全く新しいOAuth
 
-# requirements
+https://www.youtube.com/watch?v=Z3u4xr4U9uQ
 
-* docker-compose
-
-# how to use
-
-```
-make help
-```
-
-# setup
+# install
 
 ```
 make setup
 ```
-
-prepare containers, gem, migrate and so on.
-
-When this command is executed, it is all settled.
 
 # build server
 
@@ -28,81 +16,6 @@ When this command is executed, it is all settled.
 make up
 ```
 
-build rails server.
+see `localhost:3000`
 
-After up, see http://localhost:3000
-
-# add gem
-
-```
-make gem/install
-```
-
-# console
-
-## rails c
-
-```
-make console/web
-```
-
-run rails console.
-
-## rails db
-
-```
-make console/db
-```
-
-run mysql console.
-
-# db
-
-## migrate
-
-```
-make db/migrate
-```
-
-# testing
-
-```
-make test
-```
-
-run test.
-
-# cleanup/reinstall
-
-## init
-
-initialize containers.
-
-```
-make init
-```
-
-And execute `make setup`, all will go well.
-
-## reset
-
-```
-make reset
-```
-
-alias for `make init` and `make setup`.
-
-## gem reset
-
-```
-make gem/reset
-```
-
-reinstall gems.
-
-## db reset
-
-```
-make db/reset
-```
-
+色々と闇を抱えています 

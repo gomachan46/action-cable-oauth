@@ -18,6 +18,6 @@ make setup
 make up
 ```
 
-see `localhost:3000`
+see `localhost:3000/login`
 
 色々と闇を抱えています 

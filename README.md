@@ -4,6 +4,8 @@
 
 https://www.youtube.com/watch?v=Z3u4xr4U9uQ
 
+docker for mac環境、chromeで試してました
+
 # install
 
 ```
